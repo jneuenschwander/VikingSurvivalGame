@@ -457,6 +457,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1967452839319559685, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: rigidbody
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559685, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: movementSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559685, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: rotationsSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559686, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559686, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559686, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559686, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: m_AngularDrag
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559687, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: m_Height
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967452839319559687, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1967452839319559738, guid: e7eac13ba85a5e1428b04c8e62bde17a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 254
