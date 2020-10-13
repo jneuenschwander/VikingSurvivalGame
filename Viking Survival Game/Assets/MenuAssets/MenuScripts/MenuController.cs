@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using System.Security.Authentication.ExtendedProtection;
 
 namespace SpeedTutorMainMenuSystem
 {
@@ -19,6 +20,7 @@ namespace SpeedTutorMainMenuSystem
         [Header("Levels To Load")]
         public string _newGameButtonLevel;
         private string levelToLoad;
+        
 
         private int menuNumber;
         #endregion
@@ -92,6 +94,7 @@ namespace SpeedTutorMainMenuSystem
                     ClickSound();
                 }
             }
+
         }
 
         private void ClickSound()
@@ -248,7 +251,10 @@ namespace SpeedTutorMainMenuSystem
         {
             if (ButtonType == "Yes")
             {
-                SceneManager.LoadScene(_newGameButtonLevel);
+              
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+
             }
 
             if (ButtonType == "No")
