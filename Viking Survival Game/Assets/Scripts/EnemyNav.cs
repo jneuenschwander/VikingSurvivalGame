@@ -5,10 +5,15 @@ using UnityEngine.AI;
 
 public class EnemyNav : MonoBehaviour
 {
-    public Transform goal;
-       
+    public Transform objetivo;
+    private NavMeshAgent agente;
+
     void Start () {
-        NavMeshAgent agent = GetComponent<NavMeshAgent>();
-        agent.destination = goal.position; 
+         agente = GetComponent<NavMeshAgent>();
+  
+    }
+    void Update()
+    {
+        agente.destination = objetivo.position;
     }
 }
