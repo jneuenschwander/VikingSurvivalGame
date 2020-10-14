@@ -14,8 +14,27 @@ namespace VKG
         public float mouseY;
 
         PlayerControls inputActions;
+        CameraHandler cameraHandler;
+        
         Vector2 movementInput;
         Vector2 cameraInput;
+
+
+        public void Awake()
+        {
+            cameraHandler = CameraHandler.singleton;
+        }
+
+        private void FixedUpdate()
+        {
+            float delta = Time.fixedDeltaTime;
+            if (cameraHandler != null)
+            {
+                cameraHandler.FollowTarget(delta);
+                cameraHandler.HandleCameraRotation(delta, mouseX, mouseY);
+            }
+        }
+
         public void OnEnable()
         {
             if(inputActions == null)
