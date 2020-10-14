@@ -42,7 +42,7 @@ public class PlayerLocomotion : MonoBehaviour
         moveDirection.y = 0;
         float speed = movementSpeed;
         moveDirection *= speed;
-
+        moveDirection.y = rigidbody.velocity.y;
         Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection, normalVector);
         rigidbody.velocity = projectedVelocity;
         

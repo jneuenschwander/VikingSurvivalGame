@@ -31,6 +31,7 @@
         <e p="Scripts" t="Include">
           <e p="AnimatorHandler.cs" t="Include" />
           <e p="CameraHandler.cs" t="Include" />
+          <e p="EnemyNav.cs" t="Include" />
           <e p="InputHandler.cs" t="Include" />
           <e p="PlayerControls.cs" t="Include" />
           <e p="PlayerLocomotion.cs" t="Include" />
