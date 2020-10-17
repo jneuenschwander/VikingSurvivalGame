@@ -8,6 +8,7 @@ using System.Security.Authentication.ExtendedProtection;
 
 namespace SpeedTutorMainMenuSystem
 {
+    [RequireComponent(typeof(Slider))]
     public class MenuController : MonoBehaviour
     {
         #region Default Values

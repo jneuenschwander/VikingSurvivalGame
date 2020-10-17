@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec037636-eaa6-4509-8481-60e6fed42705" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MenuAssets/MenuScripts/MenuController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MenuAssets/MenuScripts/MenuController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +41,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyNav.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/MenuAssets/MenuScripts/MenuController.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +98,7 @@
       <workItem from="1602544738825" duration="787000" />
       <workItem from="1602626634830" duration="5174000" />
       <workItem from="1602695363936" duration="3044000" />
-      <workItem from="1602893128680" duration="810000" />
+      <workItem from="1602893128680" duration="1468000" />
     </task>
     <servers />
   </component>
