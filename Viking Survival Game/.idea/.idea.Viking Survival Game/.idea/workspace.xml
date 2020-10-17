@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec037636-eaa6-4509-8481-60e6fed42705" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyNav.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Viking Survival Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerLocomotion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerLocomotion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Conifers [BOTD]/Prefabs/PF Conifer Bare BOTD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Conifers [BOTD]/Prefabs/PF Conifer Bare BOTD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Conifers [BOTD]/Prefabs/PF Conifer Medium BOTD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Conifers [BOTD]/Prefabs/PF Conifer Medium BOTD.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Conifers [BOTD]/Prefabs/PF Conifer Tall BOTD.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Conifers [BOTD]/Prefabs/PF Conifer Tall BOTD.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +34,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/MenuAssets/GUI Elements/UI_BrightnessShader/Brightness.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyNav.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Sprites/Flooded_Grounds/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLocomotion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyNav.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InputHandler.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +99,7 @@
       <workItem from="1602544738825" duration="787000" />
       <workItem from="1602626634830" duration="5174000" />
       <workItem from="1602695363936" duration="3044000" />
+      <workItem from="1602893128680" duration="810000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,13 @@ namespace VKG
         
         Vector2 movementInput;
         Vector2 cameraInput;
+        private bool _iscameraHandlerNotNull;
 
+
+        private void Start()
+        {
+            _iscameraHandlerNotNull = cameraHandler != null;
+        }
 
         public void Awake()
         {
@@ -28,7 +34,7 @@ namespace VKG
         private void FixedUpdate()
         {
             float delta = Time.fixedDeltaTime;
-            if (cameraHandler != null)
+            if (_iscameraHandlerNotNull)
             {
                 cameraHandler.FollowTarget(delta);
                 cameraHandler.HandleCameraRotation(delta, mouseX, mouseY);

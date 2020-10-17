@@ -35,6 +35,7 @@
           <e p="InputHandler.cs" t="Include" />
           <e p="PlayerControls.cs" t="Include" />
           <e p="PlayerLocomotion.cs" t="Include" />
+          <e p="pullenemigos.cs" t="Include" />
         </e>
         <e p="Sprites" t="Include">
           <e p="Conifers [BOTD]" t="Include">
